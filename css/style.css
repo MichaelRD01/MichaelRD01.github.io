@@ -1,0 +1,93 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background: rgb(236, 236, 229);
+}
+
+#box {
+    width: 1000px;
+    height: auto;
+    border: 5px solid #000;
+    margin: 100px;
+}
+
+header {
+    background: url(../img/anime-one-piece-going-merry-one-piece-wallpaper-preview.jpg);
+    text-align: center;
+    height: 100px;
+    width: 100%;
+    margin: 3px;
+    border-bottom: 3px solid #000;
+    line-height: 100px;
+    color: white;
+}
+
+nav {
+    background: rgb(3, 30, 76);
+    height: 50px;
+    border-bottom: 3px solid #000;
+    margin: 3px;
+}
+
+nav ul li {
+    float: left;
+    list-style: none;
+    margin: 10px;
+    line-height: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.clear {
+    clear: both;
+}
+
+#contenido {
+    float: left;
+    width: 695px;
+    background: rgb(62, 51, 120);
+    min-height: 500px;
+    border: 2px solid #000;
+    margin: 3px;
+}
+
+.articulo {
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 3px solid black;
+}
+
+.articul {
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+img {
+    margin: 5px;
+    border: 2px solid #000;
+}
+
+aside {
+    float: left;
+    width: 285px;
+    background: rgb(76, 69, 157);
+    min-height: 500px;
+    border: 2px solid black;
+    margin: 3px;
+}
+
+footer {
+    background: rgb(22, 22, 22);
+    color: #fff;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
